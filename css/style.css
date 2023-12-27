@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    /* background: #333; */
+}
+body {
+    background: #222;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+.header-s {
+    background-image: url(/images/titleimage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.header-s h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+        /* margin: 0 auto; */
+}
+
+.header-s h1 span {
+    font-size: 18px;
+    line-height: 0;
+    
+}
+
+
+
+a {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    /* border: 1px solid red; */
+
+    /* text-align: center; */
+
+}
+.header-nav a {
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    /* border: 1px solid blue; */
+}
+
+
+
+.about {
+    display: flex;
+    height: 1000px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    position: relative;
+
+}
+.about .div1 {
+    display: flex;
+}
+
+.img-jake {
+    padding-top: 50px;
+    /* position: absolute; */
+    z-index: 2;
+    padding-right: 100px;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.num1 {
+    position: absolute;
+    padding-bottom: 10px;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    top: 180px;
+    left: 100px;
+    border-bottom: 3px solid greenyellow;
+}
+
+.div2{
+    height: 300px;
+    border-radius: 40px;
+    background: #000;
+    /* border: 1px solid red; */
+    text-align: start;
+    padding: 20px;
+    margin-top: 50px;
+}
+.div2 h1 {
+    padding-bottom: 20px;
+    /* padding: 20px; */
+    
+}
+
+.skills-header {
+    display: flex;
+    margin-top: 180px;
+    align-items: center
+}
+
+.skills-header h1 {
+    font-size: 78px;
+    padding-left: 70px;
+}
+/* .skills-a {
+    display: flex;
+    flex-wrap: wrap;
+} */
+.skills-a {
+    margin-top: 180px;
+    /* margin-left: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 20px; */
+    margin-bottom: 150px;
+    gap: 10px;
+    
+    
+}
+.skills img  {
+    /* margin-top: 180px; */
+    /* padding-left: 100px; */
+    padding-bottom: 10px;
+
+    margin-left: 100px;
+    border-bottom: 3px solid greenyellow;
+}
+
+.skills-a dl {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 40%;
+    height: 100%;
+    /* flex-grow: 1; */
+    /* padding-left: 300px; */
+    /* border: 1px solid red; */
+    /* width: calc(100% - 20px / 2); */
+}
+/* #skills_main .skills-a {
+    width: calc(100% - 20px / 2);
+} */
+
+.skills-a dl dt {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+
+.project {
+    margin-bottom: 150px;
+}
+
+.project-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project .project-num img {
+    padding-bottom: 10px;
+    border-bottom: 3px solid greenyellow;
+
+}
+
+.project-num h1 {
+    font-size: 78px;
+    padding-left: 70px;
+}
+.projects {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.project .projects a {
+    width: calc((100% - 20px) / 3);
+    
+}
+
+.projects a img {
+    width: 100%;
+    height: 100%;
+    /* margin: 10px; */
+    border: 15px solid black;
+    /* padding-bottom: 150px; */
+    border-radius: 100px;
+}
+
+.zxc {
+    size: 50%;
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 40%;
+    /* object-fit: scale-down; */
+    background-size: 50% 50%;
+}
+
+#pl {
+    /* width: 100px; */
+    /* padding: 50px; */
+    margin-top: 180px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: ; */
+    /* font-size: 70px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#pl a img {
+    width: 30px;
+    margin: 20px;
+}
+
+#project_main h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#project_main p {
+    text-align: center;
+}
